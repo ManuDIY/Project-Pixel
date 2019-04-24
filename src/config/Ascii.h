@@ -4,9 +4,9 @@
 
 #pragma once
 
-const std::string windowsAsciiArt =;
+const std::string windowsAsciiArt = null
 
-const std::string nonWindowsAsciiArt =;
+const std::string nonWindowsAsciiArt = null
 
 /* Windows has some characters it won't display in a terminal. If your ascii
    art works fine on Windows and Linux terminals, just replace 'asciiArt' with
