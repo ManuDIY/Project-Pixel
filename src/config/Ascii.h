@@ -4,7 +4,7 @@
 
 #pragma once
 
-const std::string windowsAsciiArt =
+//const std::string windowsAsciiArt =
       "\n _______         _   _       _____      _        \n"
               "|__   __|       | | | |     / ____|    (_)      \n"
               "   | |_   _ _ __| |_| | ___| |     ___  _ _ __  \n"
@@ -12,7 +12,7 @@ const std::string windowsAsciiArt =
               "   | | |_| | |  | |_| |  __/ |___| (_) | | | | |\n"
       "   |_|\\__ _|_|   \\__|_|\\___|\\_____\\___/|_|_| |_|\n";
 
-const std::string nonWindowsAsciiArt = 
+//const std::string nonWindowsAsciiArt = 
       "\n                                                                            \n"
         "████████╗██╗  ██╗██████╗ ████████╗██╗    ██████╗ █████╗ █████╗ ██╗███╗   ██╗\n"
         "╚══██╔══╝██║  ██║██╔══██╗╚══██╔══╝██║    ██╔═══╝██╔═══╝██╔══██╗██║████╗  ██║\n"
