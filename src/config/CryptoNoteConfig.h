@@ -273,7 +273,9 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
-  "138.197.70.215:18081",//Dak VPS
-  "167.99.127.35:18081"
+  "138.197.70.215:18081",//Dak VPS NYC3
+  "167.99.127.35:18081",
+  "68.183.166.74:18081",//Dak VPS SF3
+  "134.209.78.22:18081"//Dak VPS NYC2
   };
 } // CryptoNote
