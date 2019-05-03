@@ -160,7 +160,7 @@ void NodeRpcProxy::workerThread(const INode::Callback& initialized_callback) {
     });
 
     /* Init succeeded */
-    if (init.wait_for(std::chrono::seconds(m_initTimeout)) == std::future_status::ready) {
+    if (init.wait_for(std::chrono::seconds(120)) == std::future_status::ready) {
         initialized_callback(std::error_code());
     /* Timed out initting */
     } else {
