@@ -276,5 +276,6 @@ const char* const SEED_NODES[] = {
   "167.99.127.35:18081",
   "45.79.23.218:18081",
   "149.28.40.98:18081",//Dak Vultr VPS NJ
+  "192.243.101.144:18081",//Ken's Node
   };
 } // CryptoNote
