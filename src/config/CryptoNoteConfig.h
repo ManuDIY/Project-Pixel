@@ -138,9 +138,9 @@ const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT                      = 1300000;
 /* For new projects forked from this code base, the values immediately below
    should be changed to 0 to prevent issues with transaction processing 
    and other possible unexpected behavior */
-const uint64_t TRANSACTION_SIGNATURE_COUNT_VALIDATION_HEIGHT = 1400000;
-const uint64_t BLOCK_BLOB_SHUFFLE_CHECK_HEIGHT               = 1600000;
-const uint64_t TRANSACTION_INPUT_BLOCKTIME_VALIDATION_HEIGHT = 1600000;
+const uint64_t TRANSACTION_SIGNATURE_COUNT_VALIDATION_HEIGHT = 0;
+const uint64_t BLOCK_BLOB_SHUFFLE_CHECK_HEIGHT               = 0;
+const uint64_t TRANSACTION_INPUT_BLOCKTIME_VALIDATION_HEIGHT = 0;
 
 /* This describes how many blocks of "wiggle" room transactions have regarding
    when the outputs can be spent based on a reasonable belief that the outputs
@@ -171,19 +171,19 @@ static_assert(UPGRADE_VOTING_WINDOW > 1, "Bad UPGRADE_VOTING_WINDOW");
 /* Block heights we are going to have hard forks at */
 const uint64_t FORK_HEIGHTS[] =
 {
-    187000,  // 0
-    350000,  // 1
-    440000,  // 2
-    620000,  // 3
-    700000,  // 4
-    800000,  // 5
-    1000000, // 6
-    1200000, // 7
-    1300000, // 8
-    1400000, // 9
-    1600000, // 10
-    1800000, // 11
-    2000000, // 12
+    500000,  // 0
+    750000,  // 1
+    1000000,  // 2
+    1250000,  // 3
+    1500000,  // 4
+    1750000,  // 5
+    2000000, // 6
+    2250000, // 7
+    2500000, // 8
+    2750000, // 9
+    3000000, // 10
+    3250000, // 11
+    3500000, // 12
 };
 
 /* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
