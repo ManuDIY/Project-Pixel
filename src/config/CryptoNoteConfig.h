@@ -40,11 +40,11 @@ const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX                 = 2;
 const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2              = 3;
 const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3              = 4;
 
-const unsigned EMISSION_SPEED_FACTOR                         = 24;
+const unsigned EMISSION_SPEED_FACTOR                         = 22;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 /* Premine amount */
-const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(760000000);
+const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(570000000);
 
 /* How to generate a premine:
 
@@ -269,7 +269,7 @@ const char     LATEST_VERSION_URL[]                          = "http://pixel.roc
 const std::string LICENSE_URL                                = "https://github.com/projectpixel1080/Project_pixel/blob/master/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
-    {  0x8c, 0xe1, 0x13, 0x7c, 0xcd, 0xd7, 0x52, 0x31, 0x22, 0xd9, 0x2f, 0xc4, 0xc6, 0x4d, 0x77, 0x1f  }
+    {  0x7c, 0xe2, 0x14, 0x8c, 0xce, 0xd8, 0x53, 0x32, 0x23, 0xe1, 0x3f, 0xc5, 0xc7, 0x5d, 0x78, 0x2f  }
 };
 
 const char* const SEED_NODES[] = {
