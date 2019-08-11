@@ -229,8 +229,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const uint64_t BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  100;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              =  18081;
-const int      RPC_DEFAULT_PORT                              =  18082;
+const int      P2P_DEFAULT_PORT                              =  43110;
+const int      RPC_DEFAULT_PORT                              =  43111;
 const int      SERVICE_DEFAULT_PORT                          =  8070;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
@@ -273,8 +273,8 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
-  "69.164.199.105:18081",
-  "198.58.117.216:18081",
+  "69.164.199.105:43110",
+  "198.58.117.216:43110",
   "149.28.40.98:18081",//Dak Vultr VPS NJ
   "192.243.101.144:18081",//Ken's Nodes
   "173.208.143.130:18081",
