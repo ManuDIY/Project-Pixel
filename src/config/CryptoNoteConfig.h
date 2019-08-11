@@ -273,8 +273,8 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
-  "45.56.70.83:18081",
-  "45.79.1.228:18081",
+  "69.164.199.105:18081",
+  "198.58.117.216:18081",
   "149.28.40.98:18081",//Dak Vultr VPS NJ
   "192.243.101.144:18081",//Ken's Nodes
   "173.208.143.130:18081",
