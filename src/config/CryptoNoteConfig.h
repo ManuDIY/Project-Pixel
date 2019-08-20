@@ -96,7 +96,7 @@ const uint64_t MINIMUM_MIXIN_V3                              = 1;
 const uint64_t MAXIMUM_MIXIN_V3                              = 7;
 
 /* The heights to activate the mixin limits at */
-const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 500000;
+const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 1730;
 const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 750000;
 const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 1000000;
 
