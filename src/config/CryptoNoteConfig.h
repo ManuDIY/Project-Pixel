@@ -72,7 +72,7 @@ static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) !
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
    You can get this value by doing "print_block 2" in TurtleCoind. It is used to know what timestamp
    to import from when the block height cannot be found in the node or the node is offline. */
-const uint64_t GENESIS_BLOCK_TIMESTAMP                       = 1512800692;
+const uint64_t GENESIS_BLOCK_TIMESTAMP                       = 1566015242;
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 100000; //size of block (bytes) after which reward for block calculated using block size
@@ -96,7 +96,7 @@ const uint64_t MINIMUM_MIXIN_V3                              = 1;
 const uint64_t MAXIMUM_MIXIN_V3                              = 7;
 
 /* The heights to activate the mixin limits at */
-const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 500000;
+const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 1730;
 const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 750000;
 const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 1000000;
 
@@ -269,16 +269,12 @@ const char     LATEST_VERSION_URL[]                          = "http://pixel.roc
 const std::string LICENSE_URL                                = "https://github.com/projectpixel1080/Project_pixel/blob/master/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
-    {  0x7b, 0xf2, 0x11, 0x12, 0x13, 0xcf, 0xfc, 0x99, 0xc2, 0x1e, 0x3b, 0xff, 0x78, 0xc4, 0x57, 0xd2  }
+    {  0xc2, 0xf7, 0x09, 0x21, 0x11, 0x3f, 0x2b, 0xa1, 0xc5, 0x13, 0x32, 0xf1, 0x7c, 0xcd, 0x5e  }
 };
 
 const char* const SEED_NODES[] = {
-  "69.164.199.105:43110",
-  "198.58.117.216:43110",
-  "192.243.101.59:43110",
-  "192.243.108.166:43110",
-  "162.208.10.175:43110",
-  "192.243.109.22:43110",
+  "63.141.235.114:43110",
+  "142.54.191.58:43110",
   "185.105.4.162:43110",
   "185.105.4.127:43110",
   };
