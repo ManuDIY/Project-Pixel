@@ -1,14 +1,4 @@
-#### Master Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=master&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
 
-#### Development Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=development)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=development&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
-
-### Installing
-
-We offer binary images of the latest releases here: http://latest.turtlecoin.lol
-
-If you would like to compile yourself, read on.
 
 ### How To Compile
 
@@ -43,7 +33,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 - `sudo pip install cmake`
 - `export CC=gcc-8`
 - `export CXX=g++-8`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
+- `git clone https://github.com/projectpixel080/Project-Pixel`
 - `cd turtlecoin`
 - `mkdir build`
 - `cd build`
@@ -53,7 +43,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./Pixeld --version`
 
 ##### Ubuntu, using Clang
 
@@ -77,8 +67,8 @@ You need to modify the below command for your version of ubuntu - see https://ap
 - `sudo pip install cmake`
 - `export CC=clang-6.0`
 - `export CXX=clang++-6.0`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone https://github.com/projectpixel1080/Project-Pixel`
+- `cd Project-Pixel`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -87,7 +77,7 @@ You need to modify the below command for your version of ubuntu - see https://ap
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./Pixeld --version`
 
 ##### Generic Linux
 
@@ -96,8 +86,8 @@ Ensure you have the dependencies listed above.
 If you want to use clang, ensure you set the environment variables `CC` and `CXX`.
 See the ubuntu instructions for an example.
 
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone https://github.com/projectpixel1080/Project-Pixel`
+- `cd Project-Pixel`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -106,7 +96,7 @@ See the ubuntu instructions for an example.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./Pixeld --version`
 
 #### OSX/Apple, using GCC
 
@@ -120,8 +110,8 @@ The binaries will be in the `src` folder when you are complete.
 - `brew install --force cmake boost llvm gcc@8`
 - `export CC=gcc-8`
 - `export CXX=g++-8`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone https://github.com/projectpixel1080/Project-Pixel`
+- `cd Project_Pixel`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -130,7 +120,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./Pixeld --version`
 
 #### OSX/Apple, using Clang
 
@@ -144,8 +134,8 @@ The binaries will be in the `src` folder when you are complete.
 - `brew install --force cmake boost llvm`
 - `export CC=/usr/local/opt/llvm/bin/clang`
 - `export CXX=/usr/local/opt/llvm/bin/clang++`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone https://github.com/projectpixel1080/Project-Pixel`
+- `cd Project-Pixel`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -154,7 +144,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./Pixeld --version`
 
 
 #### Windows
@@ -168,7 +158,7 @@ The binaries will be in the `src` folder when you are complete.
 ##### Building
 
 - From the start menu, open 'x64 Native Tools Command Prompt for vs2017'.
-- `cd <your_turtlecoin_directory>`
+- `cd <your_pixel_directory>`
 - `mkdir build`
 - `cd build`
 - `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
@@ -179,7 +169,7 @@ The binaries will be in the `src/Release` folder when you are complete.
 
 - `cd src`
 - `cd Release`
-- `TurtleCoind.exe --version`
+- `Pixeld.exe --version`
 
 #### Raspberry Pi 3 B+ (AARCH64/ARM64)
 The following images are known to work. Your operation system image **MUST** be 64 bit.
@@ -194,8 +184,8 @@ Once you have a 64 bit image installed, setup proceeds the same as any Linux dis
 
 ##### Building
 
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone https://github.com/projectpixel1080/Project-Pixel`
+- `cd Project_Pixel`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -204,7 +194,7 @@ Once you have a 64 bit image installed, setup proceeds the same as any Linux dis
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./Pixeld --version`
 
 #### Thanks
 Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, TurtleCoin Community
