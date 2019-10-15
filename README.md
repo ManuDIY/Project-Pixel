@@ -34,7 +34,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 - `export CC=gcc-8`
 - `export CXX=g++-8`
 - `git clone https://github.com/projectpixel080/Project-Pixel`
-- `cd turtlecoin`
+- `cd Project-Pixel`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -197,7 +197,7 @@ The binaries will be in the `src` folder when you are complete.
 - `./Pixeld --version`
 
 #### Thanks
-Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, TurtleCoin Community
+Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, TurtleCoin Community, The Pixel Project
 
 ### Copypasta for license when editing files
 
