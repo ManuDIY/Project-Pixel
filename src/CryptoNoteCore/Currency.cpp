@@ -161,7 +161,12 @@ uint32_t Currency::upgradeHeight(uint8_t majorVersion) const {
     return m_upgradeHeightV4;
   } else if (majorVersion == BLOCK_MAJOR_VERSION_5) {
     return m_upgradeHeightV5;
-  } else {
+  } 
+   else if (majorVersion == BLOCK_MAJOR_VERSION_6)
+        {
+            return m_upgradeHeightV6;
+        }
+  else {
     return static_cast<uint32_t>(-1);
   }
 }
@@ -751,6 +756,7 @@ zawyDifficultyBlockVersion(parameters::ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION)
   upgradeHeightV3(parameters::UPGRADE_HEIGHT_V3);
   upgradeHeightV4(parameters::UPGRADE_HEIGHT_V4);
   upgradeHeightV5(parameters::UPGRADE_HEIGHT_V5);
+  upgradeHeightV6(parameters::UPGRADE_HEIGHT_V6);
   upgradeVotingThreshold(parameters::UPGRADE_VOTING_THRESHOLD);
   upgradeVotingWindow(parameters::UPGRADE_VOTING_WINDOW);
   upgradeWindow(parameters::UPGRADE_WINDOW);
